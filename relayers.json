@@ -229,11 +229,11 @@
         "app_url": "https://bamboorelay.com/",
         "header_img": "bamboorelay.png",
         "logo_img": "bamboorelay.png",
-        "networks": [
+        "chains": [
             {
-                "networkId": 1,
-                "sra_http_endpoint": "https://sra.bamboorelay.com/0x/v2/",
-                "sra_ws_endpoint": "wss://sra.bamboorelay.com/0x/v2/ws",
+                "chainId": 1,
+                "sra_http_endpoint": "https://sra.bamboorelay.com/mainnet/0x/v3/",
+                "sra_ws_endpoint": "wss://sra.bamboorelay.com/mainnet/0x/v3/ws",
                 "static_order_fields": {
                     "fee_recipient_addresses": [
                         "0xc898fbee1cc94c0ff077faa5449915a506eff384"
@@ -241,9 +241,9 @@
                 }
             },
             {
-                "networkId": 3,
-                "sra_http_endpoint": "https://sra.bamboorelay.com/0x/v2/",
-                "sra_ws_endpoint": "wss://sra.bamboorelay.com/0x/v2/ws",
+                "chainId": 3,
+                "sra_http_endpoint": "https://sra.bamboorelay.com/ropsten/0x/v3/",
+                "sra_ws_endpoint": "wss://sra.bamboorelay.com/ropsten/0x/v3/ws",
                 "static_order_fields": {
                     "fee_recipient_addresses": [
                         "0xc898fbee1cc94c0ff077faa5449915a506eff384"
@@ -251,9 +251,9 @@
                 }
             },
             {
-                "networkId": 4,
-                "sra_http_endpoint": "https://sra.bamboorelay.com/0x/v2/",
-                "sra_ws_endpoint": "wss://sra.bamboorelay.com/0x/v2/ws",
+                "chainId": 4,
+                "sra_http_endpoint": "https://sra.bamboorelay.com/rinkeby/0x/v3/",
+                "sra_ws_endpoint": "wss://sra.bamboorelay.com/rinkeby/0x/v3/ws",
                 "static_order_fields": {
                     "fee_recipient_addresses": [
                         "0xc898fbee1cc94c0ff077faa5449915a506eff384"
@@ -261,9 +261,9 @@
                 }
             },
             {
-                "networkId": 42,
-                "sra_http_endpoint": "https://sra.bamboorelay.com/0x/v2/",
-                "sra_ws_endpoint": "wss://sra.bamboorelay.com/0x/v2/ws",
+                "chainId": 42,
+                "sra_http_endpoint": "https://sra.bamboorelay.com/kovan/0x/v3/",
+                "sra_ws_endpoint": "wss://sra.bamboorelay.com/kovan/0x/v3/ws",
                 "static_order_fields": {
                     "fee_recipient_addresses": [
                         "0xc898fbee1cc94c0ff077faa5449915a506eff384"
